@@ -32,7 +32,7 @@ public class ORMupdate<T> {
         // this.connection = DriverManager.getConnection("jdbc:h2:~/test","","");
         this.connection = HikariCPDS.getConnection();
     }
-    @Test
+
     public void update(Class<T> class1, int i,T t) throws IllegalAccessException, SQLException {
 /*
         UPDATE table_name

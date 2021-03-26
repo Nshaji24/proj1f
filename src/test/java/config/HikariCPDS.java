@@ -21,7 +21,7 @@ public class HikariCPDS {
         config.setMaximumPoolSize(10);
         ds = new HikariDataSource(config);
     }
-    @Test
+
     public static Connection getConnection() throws SQLException {
         return ds.getConnection();
     }

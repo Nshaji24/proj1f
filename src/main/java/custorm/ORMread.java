@@ -11,7 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.concurrent.atomic.AtomicInteger;
-
+@Deprecated
 public class ORMread<T> {
     checkTable c = new checkTable();
 

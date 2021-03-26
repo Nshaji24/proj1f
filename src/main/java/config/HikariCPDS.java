@@ -5,7 +5,7 @@ import com.zaxxer.hikari.HikariDataSource;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-
+//tutorial at https://www.baeldung.com/hikaricp
 public class HikariCPDS {
     private static HikariConfig config = new HikariConfig();
     private static HikariDataSource ds;

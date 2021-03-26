@@ -14,7 +14,7 @@ import java.util.StringJoiner;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+@Deprecated
 public class ORMcreate<T> {
     checkTable c = new checkTable();
     private Connection connection;

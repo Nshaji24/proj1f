@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 //since annotation is applied on fields
 @Target(ElementType.FIELD)
-@Test
+
 public @interface Column {
 }

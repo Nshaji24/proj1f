@@ -19,7 +19,7 @@ public class Driver {
 
     public Driver() throws SQLException, ParserConfigurationException, SAXException, XPathExpressionException, IOException {
     }
-    @Test
+
     public static void main(String[] args) throws SQLException,NumberFormatException, IllegalAccessException, NoSuchMethodException, InstantiationException, InvocationTargetException {
         ORMcreate c = new ORMcreate();
         ORMupdate u = new ORMupdate();

@@ -17,7 +17,7 @@ import java.sql.Statement;
 
 
 public class xmlDOM {
-    @Test
+
     public void xmlcreate() {
 
         try {

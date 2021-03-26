@@ -29,7 +29,7 @@ public class ORMread<T> {
         // this.connection = DriverManager.getConnection("jdbc:h2:~/test","","");
         this.connection = HikariCPDS.getConnection();
     }
-    @Test
+
     public T read(Class<T> class1, int i) throws SQLException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         if(c.checkTableExists(connection, class1.getSimpleName())) {
             try {

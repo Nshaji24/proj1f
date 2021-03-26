@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.concurrent.atomic.AtomicInteger;
-
+@Deprecated
 public class ORMdelete<T> {
     private Connection connection;
     checkTable c = new checkTable();

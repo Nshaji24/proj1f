@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class checkTable {
 
-    @Test
+
     public boolean checkTableExists(Connection conn, String tableName) throws SQLException {
 
         boolean tableExists = false;
